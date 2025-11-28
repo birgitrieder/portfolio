@@ -24,7 +24,7 @@
     }
 
     button {
-        @apply px-4 py-2 mt-8 bg-neutral-50 hover:bg-blue-300 rounded-md shadow-md;
+        @apply px-4 py-2 mt-8 bg-neutral-50 hover:bg-neutral-100 rounded-md shadow-md;
     }
 
     .flip-card-back,
@@ -46,7 +46,7 @@
     }
 
     a:hover {
-        @apply bg-blue-300
+        @apply bg-neutral-200;
     }
 }
 
