@@ -12,7 +12,7 @@
     }
 
     header, main, footer {
-        @apply shadow-sm p-5 sm:p-10;
+        @apply shadow-sm p-5 sm:p-7 md:p-10;
     }
 
     h2 {
@@ -38,7 +38,7 @@
     }
 
     .flip-card-front {
-        @apply rounded-lg p-5 sm:p-10;
+        @apply rounded-lg p-5 sm:p-7 md:p-10;
     }
 
     a {
