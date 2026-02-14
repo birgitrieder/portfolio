@@ -41,7 +41,7 @@
     }
 
     .flip-card-front {
-        @apply rounded-lg p-5 sm:p-5 md:p-20;
+        @apply rounded-lg p-5;
     }
 
     a {
