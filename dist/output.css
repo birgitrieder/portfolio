@@ -385,6 +385,12 @@
   .flip-card-wrapper .flip-card-front button {
     margin-top: 1rem;
   }
+  p.about {
+    margin-bottom: 2rem;
+  }
+  img.about {
+    display: inline;
+  }
 }
 @property --tw-rotate-x {
   syntax: "*";
