@@ -325,7 +325,7 @@
   }
   .flip-card-front {
     border-radius: var(--radius-lg);
-    padding: calc(var(--spacing) * 5);
+    padding: calc(var(--spacing) * 4);
   }
   a {
     padding: calc(var(--spacing) * 2);
@@ -333,6 +333,9 @@
   }
   a:hover {
     background-color: var(--color-neutral-200);
+  }
+  .no-break {
+    white-space: nowrap;
   }
 }
 @layer components {
@@ -387,6 +390,7 @@
   }
   p.about {
     margin-bottom: 4rem;
+    line-height: 4rem;
   }
   img.about {
     display: inline;
