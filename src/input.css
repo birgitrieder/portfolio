@@ -110,11 +110,12 @@
     }
 
     p.about {
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
 
     img.about {
         display: inline;
+        height: 60px;
     }
 }
 
