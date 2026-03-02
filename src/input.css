@@ -45,7 +45,7 @@
     }
 
     a {
-        @apply underline p-2;
+        @apply underline p-1.5;
     }
 
     a:hover {
