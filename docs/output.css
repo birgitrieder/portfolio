@@ -233,11 +233,11 @@
     border-top-left-radius: var(--radius-lg);
     border-top-right-radius: var(--radius-lg);
   }
-  .text-\[min\(2\.4vw\,1\.8rem\)\] {
-    font-size: min(2.4vw, 1.8rem);
-  }
   .text-\[min\(2\.5vw\,1\.4rem\)\] {
     font-size: min(2.5vw, 1.4rem);
+  }
+  .text-\[min\(2\.5vw\,1\.8rem\)\] {
+    font-size: min(2.5vw, 1.8rem);
   }
   .text-\[min\(4\.5vw\,5rem\)\] {
     font-size: min(4.5vw, 5rem);
