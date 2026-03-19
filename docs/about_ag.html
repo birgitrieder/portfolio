@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N28DMEHP20"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-N28DMEHP20');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio von Birgit Rieder – Über mich und meine beruflichen und privaten Fähigkeiten und Interessen.">
+    <meta name="keywords" content="Portfolio, Informatik, Softwareentwicklung, Projekte, Erfahrungen, Fähigkeiten, Python, C#, JavaScript, Webentwicklung, Datenbanken">
+    <meta name="author" content="Birgit Rieder">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./portfolio_ag.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./images/avatar.png">
+    
+    <!-- Google Fonts for Antigravity modern aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <script src="script.js" defer></script>
+    <title>Portfolio – Über mich</title>
+    <style>
+        .about-content {
+            padding: 3rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+            font-size: 1.2rem;
+            color: var(--text-main);
+            animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        .about-content p {
+            margin-bottom: 2rem;
+        }
+        .about-content p:last-child {
+            margin-bottom: 0;
+        }
+        .about-content a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .about-content a:hover {
+            text-decoration: underline;
+        }
+        .about-content img {
+            vertical-align: middle;
+            height: 1.5em;
+            margin: 0 0.2rem;
+        }
+        .about-list {
+            list-style-type: disc;
+            margin-left: 2rem;
+            margin-bottom: 2rem;
+        }
+        .about-list li {
+            margin-bottom: 0.8rem;
+        }
+        .about-list li:last-child {
+            margin-bottom: 0;
+        }
+        .no-break {
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Floating glowing orbs for Antigravity effect -->
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <header class="glass-header">
+        <div class="logo">Birgit Rieder <span>// Portfolio</span></div>
+        <div class="header-right">
+            <nav>
+                <a href="index_ag.html">Home</a>
+                <a class="active" href="about_ag.html">überMich</a>
+            </nav>
+            <a href="about.html" class="btn-classic">Classic Modus</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1 class="hero-title">Hello, World – <span>it's me</span></h1>
+            <p class="hero-subtitle">Meine Projekte und Fähigkeiten</p>
+        </section>
+
+        <section class="glass-panel about-content">
+            <div class="main-about">
+                <p>
+                    Ende 2026 schliessen wir nach fast 30 Jahren unsere Firma <a href="https://seven-r.ch" target="_blank">7r AG Software</a>. 
+                    Womit ich ab 2027 auf der Suche nach einer neuen Arbeitsstelle bin.
+                </p>
+
+                <ul class="about-list">
+                    <li>Ich entwickle mit Leidenschaft Software, die Kund:innen zu Gute kommt und Prozesse vereinfacht.</li>
+                    <li>Mein Berufsleben ist eine Mischung aus Logik, Kreativität und jeder Menge Code.</li>
+                    <li>Ich arbeite strukturiert, präzise und lösungsorientiert, bin engagiert und arbeite gerne im Team.</li>
+                    <li>In meiner Freizeit sitze ich oft vor einem Buch.</li>
+                    <li>Mit Ausdauer und Freude spiele ich jede Woche Karten mit Familie und Freunden.</li>
+                    <li>Ausserdem halte ich mich fit mit Radfahren und Krafttraining.</li>
+                    <li>Diskussionen über Politik und Gesellschaft bereichern mich – ich freue mich über neue Perspektiven und Argumente.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <p>© 2026, <a href="mailto:birgit@rieder.com">Birgit Rieder</a></p>
+        <p><a href="dsgvo_ag.html">Datenschutz</a></p>
+    </footer>
+
+    <div id="consentBox" class="glass-panel" style="display:none; position:fixed; bottom:20px; right:20px; z-index:1000; padding:20px; max-width:400px;">
+        <div id="consentContent">
+            <p style="margin-bottom:15px; font-size:0.9rem; color:var(--text-main);">Um zu erkennen, wie oft und woher meine Website besucht wird, nutze ich Analyse-Tools.</p>
+            <button id="consentButton" style="background:var(--accent); color:#000; border:none; padding:8px 16px; border-radius:8px; cursor:pointer; font-weight:600;">OK</button>
+        </div>
+    </div>
+    <!-- Script consent.js logic depends on these IDs -->
+    <script src="consent.js"></script>
+
+</body>
+</html>

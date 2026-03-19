@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N28DMEHP20"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-N28DMEHP20');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio von Birgit Rieder – Datenschutzerklärung">
+    <meta name="keywords" content="Portfolio, Informatik, Softwareentwicklung, Projekte, Erfahrungen, Fähigkeiten, Python, C#, JavaScript, Webentwicklung, Datenbanken">
+    <meta name="author" content="Birgit Rieder">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./portfolio_ag.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./images/avatar.png">
+    
+    <!-- Google Fonts for Antigravity modern aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <script src="script.js" defer></script>
+    <title>Portfolio – Datenschutzerklärung</title>
+    <style>
+        .dsgvo-content {
+            padding: 4rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+            font-size: 1.2rem;
+            color: var(--text-main);
+            animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        .dsgvo-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: var(--accent);
+        }
+        .dsgvo-content p {
+            margin-bottom: 1.5rem;
+        }
+        .dsgvo-content p:last-child {
+            margin-bottom: 0;
+        }
+        .dsgvo-list {
+            list-style-type: disc;
+            margin-left: 2rem;
+            margin-bottom: 2rem;
+        }
+        .dsgvo-list li {
+            margin-bottom: 0.8rem;
+        }
+        .dsgvo-list li:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Floating glowing orbs for Antigravity effect -->
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <header class="glass-header">
+        <div class="logo">Birgit Rieder <span>// Portfolio</span></div>
+        <div class="header-right">
+            <nav>
+                <a href="index_ag.html">Home</a>
+                <a href="about_ag.html">überMich</a>
+            </nav>
+            <a href="dsgvo.html" class="btn-classic">Classic Modus</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="glass-panel dsgvo-content">
+            <div class="main-dsgvo">
+                <h2>Datenschutzerklärung</h2>
+
+                <p>Diese Website verwendet Analyse Tools, um Besucherstatistiken zu erstellen.</p>
+
+                <p>Welche Daten werden erfasst?</p>
+                <ul class="dsgvo-list">
+                    <li>Datum und Uhrzeit des Besuchs</li>
+                    <li>Besuchte Seiten und Verweildauer</li>
+                    <li>Browsertyp und -version</li>
+                    <li>Betriebssystem und Gerätetyp</li>
+                    <li>IP-Adresse</li>
+                </ul>
+
+                <p>
+                    Die Daten dienen dazu, die Nutzung der Website statistisch auszuwerten.
+                    Es findet keine persönliche Identifizierung der Besucher statt.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <p>© 2026, <a href="mailto:birgit@rieder.com">Birgit Rieder</a></p>
+        <p><a href="dsgvo_ag.html">Datenschutz</a></p>
+    </footer>
+
+    <div id="consentBox" class="glass-panel" style="display:none; position:fixed; bottom:20px; right:20px; z-index:1000; padding:20px; max-width:400px;">
+        <div id="consentContent">
+            <p style="margin-bottom:15px; font-size:0.9rem; color:var(--text-main);">Um zu erkennen, wie oft und woher meine Website besucht wird, nutze ich Analyse-Tools.</p>
+            <button id="consentButton" style="background:var(--accent); color:#000; border:none; padding:8px 16px; border-radius:8px; cursor:pointer; font-weight:600;">OK</button>
+        </div>
+    </div>
+    <!-- Script consent.js logic depends on these IDs -->
+    <script src="consent.js"></script>
+
+</body>
+</html>
