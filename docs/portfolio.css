@@ -39,7 +39,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0 solid;
+  border: none;
 }
 
 body {
@@ -68,8 +68,8 @@ h2 {
 }
 
 button {
+  color: var(--color-gray-800);
   font: inherit;
-  margin-top: calc(var(--spacing) * 8);
   border-radius: var(--radius-md);
   border: none;
   background-color: var(--color-neutral-50);
@@ -136,13 +136,10 @@ a {
 
 .flip-card-back,
 .flip-card-front {
+  border-radius: var(--radius-lg);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.flip-card-front {
-  border-radius: var(--radius-lg);
   padding: calc(var(--spacing) * 4);
 }
 
@@ -172,8 +169,8 @@ a {
   border-radius: var(--radius-lg);
 }
 
-.flip-card-wrapper .flip-card-front button {
-  margin-top: 1rem;
+.flip-card-wrapper button {
+  margin-bottom: 1rem;
 }
 
 .flip-card-wrapper .flip-card-back {
@@ -185,7 +182,6 @@ a {
   inset: 0;
   backface-visibility: hidden;
   transform: rotateY(-180deg);
-  padding: 32px;
   border: 1px solid var(--color-gray-300);
   transition: transform 0.8s ease;
   overflow: hidden;
