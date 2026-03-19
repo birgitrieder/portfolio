@@ -73,7 +73,6 @@ button {
   border-radius: var(--radius-md);
   border: none;
   background-color: var(--color-neutral-50);
-  padding-inline: calc(var(--spacing) * 4);
   padding-block: calc(var(--spacing) * 2);
   box-shadow:
     0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -237,8 +236,7 @@ ul {
   background-color: var(--color-blue-500);
 }
 
-/* Test, if this will be pushed */
-.main-about {
+.main-about, .main-dsgvo {
   overflow: auto;
   width: 100%;
 }
@@ -260,10 +258,10 @@ ul {
   }
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 768px) {
   body {
     font-size: var(--text-base);
-    line-height: var(--tw-leading, var(--text-base--line-height));
+    line-height: var(--text-base--line-height);
   }
 
   header, main {
@@ -279,15 +277,8 @@ ul {
     height: 600px;
   }
 
-  .main-about {
+  .main-about, .main-dsgvo {
     width: calc(9/12 * 100%);
-  }
-}
-
-
-@media (min-width: 48rem) {
-  header, main {
-    padding: calc(var(--spacing) * 8);
   }
 
   #consentContent {
@@ -295,13 +286,14 @@ ul {
   }
 }
 
-@media (min-width: 64rem) {
-  main {
-    flex: 1;
-    overflow: auto;
-  }
-
-  .main-about {
+@media (min-width: 1024px) {
+  .main-about, .main-dsgvo {
     width: calc(6/12 * 100%);
+  }
+}
+
+@media (min-width: 1920px) {
+  .main-about, .main-dsgvo {
+    width: calc(4/12 * 100%);
   }
 }
