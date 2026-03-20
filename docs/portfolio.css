@@ -235,6 +235,7 @@ ul {
   font-size: var(--text-sm);
   line-height: var(--text-sm--line-height);
   background-color: var(--color-blue-400);
+  border-color: var(--color-blue-400);
   border-radius: var(--radius-md);
 }
 
