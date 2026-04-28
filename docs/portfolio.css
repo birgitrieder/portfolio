@@ -62,8 +62,8 @@ p {
 
 h2 {
   margin-block: calc(var(--spacing) * 2);
-  font-size: var(--text-sm);
-  line-height: var(--text-sm--line-height);
+    font-size: var(--text-xl);
+    line-height: var(--text-xl--line-height);
   font-weight: var(--font-weight-bold);
 }
 
@@ -193,6 +193,12 @@ a {
   overflow: hidden;
 }
 
+.tech-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.5rem;
+}
+
 .flex-footer {
   display: flex;
   justify-content: center;
@@ -201,7 +207,8 @@ a {
 
 ul {
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
+  margin-left: 1rem;
 }
 
 #consentBox {
@@ -270,14 +277,9 @@ ul {
     padding: calc(var(--spacing) * 7);
   }
 
-
-.flex-header button {
-  padding-inline: calc(var(--spacing) * 4);
-  padding-block: calc(var(--spacing) * 2);
-}
-  h2 {
-    font-size: var(--text-xl);
-    line-height: var(--text-xl--line-height);
+  .flex-header button {
+    padding-inline: calc(var(--spacing) * 4);
+    padding-block: calc(var(--spacing) * 2);
   }
 
   .flip-card-wrapper {
