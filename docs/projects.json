@@ -1,0 +1,251 @@
+[
+    {
+        "image": "./images/school03.webp",
+        "alt": "Schule",
+        "title": "Schulverwaltung – Ein Gymnasium voll im Griff",
+        "text": "Webapplikation zur digitalen Verwaltung von Schüler:innen, Kursen, Noten und Zeugnissen.",
+        "year": "Seit 2006",
+        "technologies": [
+            {
+                "label": "Frontend",
+                "value": "HTML, CSS, JavaScript"
+            },
+            {
+                "label": "Backend/IDE",
+                "value": "Servoy (Low-Code Plattform), Tomcat"
+            },
+            {
+                "label": "Datenbank",
+                "value": "SAP SQL Anywhere, SQL"
+            }
+        ],
+        "responsibilities": [
+            "Technische Verantwortung für die Anwendung",
+            "Konzeption und Umsetzung von Bedienkonzept und Benutzeroberfläche",
+            "Erarbeitung des Datenmodells",
+            "Evaluation und Anbindung externer Schnittstellen",
+            "Weiterentwicklung, Deployment und Betrieb",
+            "Schulung und First-Level-Support"
+        ]
+    },
+    {
+        "image": "./images/teacher06.webp",
+        "alt": "Lehrerin",
+        "title": "Informatik-Lehrerin",
+        "text": "Nebenberufliche Lehrtätigkeit in Informatik an einer Berufsfachschule – ausgebildete Berufsschullehrperson im Nebenamt.",
+        "year": "Seit 2019",
+        "technologies": [
+            {
+                "label": "Programmierung",
+                "value": "C#, JavaScript, Powershell, OOP"
+            },
+            {
+                "label": "Datenbanken",
+                "value": "Datenmodellierung, SQL Server, UML"
+            },
+            {
+                "label": "Web",
+                "value": "HTML5, CSS3"
+            },
+            {
+                "label": "Infrastruktur",
+                "value": "Netzwerkgrundlagen, Arbeitsplatz- und Systemeinrichtung"
+            }
+        ],
+        "responsibilities": []
+    },
+    {
+        "image": "./images/python03.webp",
+        "alt": "Bild einer Schlange (Python)",
+        "title": "Python – Eine Sprache in aller Munde",
+        "text": "Erfolgreicher Abschluss eines mehrwöchigen Online-Kurses in Python, inklusive praktischer Programmierübungen.",
+        "year": "2025",
+        "technologies": [
+            {
+                "label": "Sprache",
+                "value": "Python"
+            },
+            {
+                "label": "Lernplattformen",
+                "value": "OpenHPI, CodeOcean"
+            },
+            {
+                "label": "Arbeitsumgebung",
+                "value": "Jupyter"
+            }
+        ],
+        "responsibilities": []
+    },
+    {
+        "image": "./images/workout02.webp",
+        "alt": "Bild einer Hantel",
+        "title": "Byceps & Bytes",
+        "text": "Eigenständig entwickelte Web-Applikation zur Verwaltung von Workouts, programmiert für den privaten Gebrauch.",
+        "year": "2025",
+        "technologies": [
+            {
+                "label": "Frontend",
+                "value": "HTML, CSS, JavaScript"
+            },
+            {
+                "label": "Backend",
+                "value": "C#, Python, JavaScript"
+            },
+            {
+                "label": "Datenbank",
+                "value": "SQL Server, PostgreSQL"
+            },
+            {
+                "label": "Hosting",
+                "value": "Azure, Render"
+            }
+        ],
+        "responsibilities": []
+    },
+    {
+        "image": "./images/periodicals05.webp",
+        "alt": "Bücher",
+        "title": "Zeitschriften-Verwaltung",
+        "text": "Verwaltung von Abonnements: erwartete Ausgaben überwachen, eingetroffene Lieferungen prüfen und Rechnungen intern verbuchen.",
+        "year": "2015-2023",
+        "technologies": [
+            {
+                "label": "Frontend",
+                "value": "HTML, CSS, JavaScript"
+            },
+            {
+                "label": "Backend/IDE",
+                "value": "Servoy (Low-Code Plattform), Tomcat"
+            },
+            {
+                "label": "Datenbank",
+                "value": "SAP SQL Anywhere, SQL"
+            }
+        ],
+        "responsibilities": [
+            "Technische Verantwortung für die Anwendung",
+            "Konzeption und Umsetzung von Bedienkonzept und Benutzeroberfläche",
+            "Erarbeitung des Datenmodells",
+            "Weiterentwicklung, Deployment und Betrieb",
+            "Schulung und First-Level-Support"
+        ]
+    },
+    {
+        "image": "./images/money02.webp",
+        "alt": "Geld und Kreditkarten",
+        "title": "Budget-Kontrolle",
+        "text": "Ausgaben überwachen und Rechnungen verbuchen, Budget stets im Blick.",
+        "year": "2010-2024",
+        "technologies": [
+            {
+                "label": "Frontend",
+                "value": "HTML, CSS, JavaScript"
+            },
+            {
+                "label": "Backend/IDE",
+                "value": "Servoy (Low-Code Plattform), Tomcat"
+            },
+            {
+                "label": "Datenbank",
+                "value": "SAP SQL Anywhere, SQL"
+            }
+        ],
+        "responsibilities": [
+            "Technische Verantwortung für die Anwendung",
+            "Konzeption und Umsetzung von Bedienkonzept und Benutzeroberfläche",
+            "Erarbeitung des Datenmodells",
+            "Weiterentwicklung, Deployment und Betrieb",
+            "Schulung und First-Level-Support"
+        ]
+    },
+    {
+        "image": "./images/train02.webp",
+        "alt": "Kleiner roter Zug",
+        "title": "Trafimage – Die SBB-Netzkarte",
+        "text": "Parsen des SBB-Fahrplans und Darstellung des georeferenzierten Verlaufs des Streckennetzes von Bahn und Bus auf der Schweizer Karte.",
+        "year": "2008-2015",
+        "technologies": [
+            {
+                "label": "Frontend",
+                "value": "HTML, CSS, JavaScript"
+            },
+            {
+                "label": "Backend/IDE",
+                "value": "Servoy (Low-Code Plattform), Tomcat"
+            },
+            {
+                "label": "Datenbank",
+                "value": "PostgreSQL, PostGIS, SQL"
+            }
+        ],
+        "responsibilities": [
+            "Technische Verantwortung für die Anwendung",
+            "Entwicklung eines Parsers zur Integration von SBB-Fahrplandaten in die Datenbank",
+            "Erarbeitung des Datenmodells",
+            "Koordination mit einer externen Grafikagentur zur Umsetzung des visuellen Designs"
+        ]
+    },
+    {
+        "image": "./images/web.webp",
+        "alt": "Internet",
+        "title": "ICT Professional Web SIZ",
+        "text": "Weiterbildung im Bereich Webentwicklung und Medienbearbeitung.",
+        "year": "2005",
+        "technologies": [
+            {
+                "label": "Frontend",
+                "value": "HTML, CSS, JavaScript"
+            },
+            {
+                "label": "Backend/Server",
+                "value": "PHP, Apache Webserver"
+            },
+            {
+                "label": "Datenbank",
+                "value": "MySQL"
+            }
+        ],
+        "responsibilities": []
+    },
+    {
+        "image": "./images/car02.webp",
+        "alt": "Ein gelbes Rennauto",
+        "title": "Car-Configurator",
+        "text": "Webbasierter Fahrzeugkonfigurator für einen Autoimporteur.",
+        "year": "2000-2001",
+        "technologies": [
+            {
+                "label": "Frontend",
+                "value": "HTML, CSS"
+            },
+            {
+                "label": "Backend/Logik",
+                "value": "Smalltalk"
+            }
+        ],
+        "responsibilities": []
+    },
+    {
+        "image": "./images/smalltalk05.webp",
+        "alt": "Ein Team von Mitarbeitenden",
+        "title": "KMU-Desktop",
+        "text": "Desktop-Applikation für den KMU-Bereich einer Grossbank zur Berechnung von Kreditrisiken und Zinsen.",
+        "year": "1994-1999",
+        "technologies": [
+            {
+                "label": "Sprache",
+                "value": "Smalltalk"
+            },
+            {
+                "label": "Datenbank",
+                "value": "Oracle"
+            }
+        ],
+        "responsibilities": [
+            "Mitarbeit im Frontend-Team der objektorientierten Desktop-Applikation",
+            "Entwicklung grafischer Benutzeroberflächen in Smalltalk",
+            "Release-Management und Koordination von Software-Releases",
+            "Weiterentwicklung der Anwendung im Bankenumfeld"
+        ]
+    }
+]
